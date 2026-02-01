@@ -1,0 +1,60 @@
+body
+{
+	background-color: #FFE6EA;
+	font-family: "Roboto Condensed", sans-serif;
+	color: #750014;
+}
+
+#teddy
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#teddy img
+{
+	display: block;
+	max-width: 450px;
+	width: 100%;
+	height: auto;
+	margin-bottom: 0;
+}
+
+#question
+{
+	text-align: center;
+	font-size: 45px;
+	font-weight: 700;
+	margin-top: 0;
+    margin-bottom: 0;
+}
+
+#answer
+{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+#answer a
+{
+	display: inline-block;
+}
+
+#answer .option
+{
+	display: inline-block;
+	margin: 0 8px;
+	color: #9F2B68;
+	font-size: 30px;
+	width: 120px;
+	height: 110px;
+	line-height: 110px;
+	text-align: center;
+	background-image: url("heart.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 170%;
+	box-sizing: border-box;
+}
